@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f9f9f9;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+main {
+  position: relative;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+main article {
+  width: calc(100% / 3 - 5px);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  background: #f1f3f4;
+}
+
+main article img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+main article p,
+main article h4,
+main article audio,
+main article button {
+  padding: 0 5px;
+}
+
+main article audio {
+  width: 100%;
+}
+
+main article button {
+  margin: 10px 0;
+  padding: 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+main article button:hover {
+  background: #45a049;
+}
+
+#playlist {
+  margin: 20px;
+}
+
+#playlist h2 {
+  margin-bottom: 10px;
+}
+
+#playlist ul {
+  list-style: none;
+  padding: 0;
+}
+
+#playlist ul li {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#playlist ul li audio {
+  margin-left: 10px;
+}
